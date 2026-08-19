@@ -1,0 +1,39 @@
+.outer{
+     border: 4px;
+      background-color: bisque;
+      height: 700px;
+      width:450px;
+      margin: 0 auto ;
+      padding:10px;
+      
+}
+
+.inner{
+
+    border: 2px ;
+    text-align: center;
+    background-color: white;
+    margin:40px auto;
+   
+    border-radius: 20px;
+    height:600px;
+    width:300px;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 0px 4px 10px gray;
+   
+    
+}
+
+.student{
+
+    border: 2px ;
+      background-color: bisque;
+      border-radius: 50%;
+      width: 130px;
+      height:130px;
+      align-content: center;
+      box-shadow: 0px 1px 10px gray;
+}
+
