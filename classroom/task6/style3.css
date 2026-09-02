@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Times New Roman", serif;
+}
+
+/* Main container */
+.container {
+    width: 610px;
+    margin: 5px auto;
+    border: 2px solid black;
+    border-radius: 35px;
+    overflow: hidden;
+}
+
+/* Heading */
+.heading {
+    height: 95px;
+    background-color: #10d4e5;
+    border-bottom: 1px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading h1 {
+    font-size: 58px;
+}
+
+/* Each link box */
+.link {
+    height: 98px;
+    border-bottom: 1px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: 0.3s;
+}
+
+/* Link text */
+.link a {
+    font-size: 42px;
+    color: purple;
+    text-decoration: none;
+
+    transition: 0.3s;
+}
+
+/* Hover effect */
+.link:hover {
+    background-color: lightblue;
+}
+
+.link:hover a {
+    color: red;
+    font-size: 46px;
+}
+
+/* About section */
+.about {
+    background-color: #43ed7a;
+}
+
+.about a {
+    color: black;
+}
+
+/* Hover effect specifically for About */
+.about:hover {
+    background-color: #20c963;
+}
+
+.about:hover a {
+    color: white;
+}
+
+/* Remove border from last item */
+.contact {
+    border-bottom: none;
+}
